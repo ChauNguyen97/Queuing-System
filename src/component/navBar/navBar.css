@@ -1,0 +1,78 @@
+.navBar {
+  width: 100%;
+  max-height: 100%;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px 0px;
+  gap: 54px;
+}
+
+.navLogo {
+  width: 80px;
+  height: 65px;
+}
+
+.navOption {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  align-items: flex-start;
+  padding: 0px 17px;
+}
+
+.navOptionItem {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  color: #7e7d88;
+}
+
+.navOptionItem:hover {
+  background: #fff2e7;
+  color: #ff7506;
+}
+
+.navText {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  /* Gray/$-gray-300 */
+  padding: 0px 10px;
+}
+
+.navButton {
+  position: relative;
+  margin-top: 264px;
+}
+
+.navButton button {
+  width: 176px;
+  height: 48px;
+  background: #fff2e7;
+  border-radius: 8px;
+  border: none;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  /* Orange/$-Orange-500 */
+
+  color: #ff7506;
+}
+
+.navButton img {
+  position: absolute;
+  left: 12px;
+  top: 14px;
+}

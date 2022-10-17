@@ -1,0 +1,11 @@
+.user {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+
+  background: #f6f6f6;
+}
+
+.userNav {
+  width: 200px;
+}

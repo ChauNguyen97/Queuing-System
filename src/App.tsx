@@ -1,6 +1,7 @@
 import ForgotPass from 'features/login/ForgotPass';
 import Login from 'features/login/Login';
 import ResetPass from 'features/login/ResetPass';
+import User from 'features/user/User';
 import React from 'react';
 
 import {
@@ -27,6 +28,10 @@ function App() {
     {
       path: 'reset',
       element: <ResetPass />,
+    },
+    {
+      path: 'user',
+      element: <User />,
     },
   ]);
   return (

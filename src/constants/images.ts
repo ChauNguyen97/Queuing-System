@@ -3,6 +3,14 @@ import banner02 from '../assets/images/banner02.png';
 import logo from '../assets/images/logo.png';
 import warningIcon from '../assets/images/fi_alert-circle.svg';
 import eyeSlash from '../assets/images/u_eye-slash.svg';
+import setting from '../assets/images/setting.svg';
+import dashboard from '../assets/images/dashboard.svg';
+import more from '../assets/images/fi_more-vertical.svg';
+import monitor from '../assets/images/monitor.svg';
+import layer from '../assets/images/fi_layers.svg';
+import service from '../assets/images/service.svg';
+import report from '../assets/images/report.svg';
+import logout from '../assets/images/fi_log-out.svg';
 
 const Images = {
   BANNER01: banner01,
@@ -10,6 +18,14 @@ const Images = {
   LOGO: logo,
   WARNING_ICON: warningIcon,
   EYE_ICON: eyeSlash,
+  DASHBOARD_ICON: dashboard,
+  SETTING_ICON: setting,
+  SERVICE_ICON: service,
+  MONITOR_ICON: monitor,
+  MORE_ICON: more,
+  LAYER_ICON: layer,
+  REPORT_ICON: report,
+  LOGOUT_ICON: logout,
 };
 
 export default Images;
