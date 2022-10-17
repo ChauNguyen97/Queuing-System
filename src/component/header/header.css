@@ -1,0 +1,77 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 24px;
+
+  font-family: 'Nunito';
+  font-style: normal;
+}
+
+.headerTitle {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+
+  /* Orange/$-Orange-400 */
+
+  color: #ff9138;
+  margin: 0px;
+}
+
+.headerTool {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.headerNotion {
+  width: 32px;
+  height: 32px;
+  text-align: center;
+
+  background: #fff2e7;
+  border-radius: 32px;
+}
+
+.headerIcon {
+  padding-top: 6px;
+}
+
+.headerImage {
+  width: 40px;
+  height: 40px;
+  border-radius: 48px;
+}
+
+.headerInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.headerText {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height, or 150% */
+
+  /* Gray/$-gray-300 */
+
+  color: #7e7d88;
+
+  margin: 0px;
+}
+
+.headerName {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  /* Gray/$-gray-400 Text */
+
+  color: #535261;
+  margin: 0px;
+  margin-right: 40px;
+}
