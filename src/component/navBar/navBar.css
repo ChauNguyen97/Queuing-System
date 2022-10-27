@@ -36,6 +36,10 @@
   color: #ff7506;
 }
 
+.navOptionItem:hover img {
+  filter: invert(52%) sepia(92%) saturate(2479%) hue-rotate(355deg) brightness(101%) contrast(105%);
+}
+
 .navText {
   font-family: 'Nunito';
   font-style: normal;

@@ -75,3 +75,12 @@
   margin: 0px;
   margin-right: 40px;
 }
+
+.navOptionItem.active {
+  background: #ff7506;
+  color: #ffffff;
+}
+
+.navOptionItem.active img {
+  filter: brightness(0) invert(1);
+}

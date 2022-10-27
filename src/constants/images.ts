@@ -13,6 +13,7 @@ import report from '../assets/images/report.svg';
 import logout from '../assets/images/fi_log-out.svg';
 import notion from '../assets/images/notification.svg';
 import picture from '../assets/images/unsplash_Fyl8sMC2j2Q.png';
+import camera from '../assets/images/camera.svg';
 
 const Images = {
   BANNER01: banner01,
@@ -30,6 +31,7 @@ const Images = {
   REPORT_ICON: report,
   LOGOUT_ICON: logout,
   NOTION_ICON: notion,
+  CAMERA_ICON: camera,
 };
 
 export default Images;

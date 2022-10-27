@@ -10,42 +10,42 @@ const NavBar = () => {
       <div className="navOption">
         <NavLink
           className={(navData) => (navData.isActive ? 'navOptionItem active' : 'navOptionItem')}
-          to="/"
+          to="/dashboard"
         >
           <img src={Images.DASHBOARD_ICON} alt="" />
           <p className="navText">Dashboard</p>
         </NavLink>
         <NavLink
           className={(navData) => (navData.isActive ? 'navOptionItem active' : 'navOptionItem')}
-          to="/"
+          to="/us"
         >
           <img src={Images.MONITOR_ICON} alt="" />
           <p className="navText">Thiết bị</p>
         </NavLink>
         <NavLink
           className={(navData) => (navData.isActive ? 'navOptionItem active' : 'navOptionItem')}
-          to="/"
+          to="/aaa"
         >
           <img src={Images.SERVICE_ICON} alt="" />
           <p className="navText">Dịch vụ</p>
         </NavLink>
         <NavLink
           className={(navData) => (navData.isActive ? 'navOptionItem active' : 'navOptionItem')}
-          to="/"
+          to="/aaa"
         >
           <img src={Images.LAYER_ICON} alt="" />
           <p className="navText">Cấp số</p>
         </NavLink>
         <NavLink
           className={(navData) => (navData.isActive ? 'navOptionItem active' : 'navOptionItem')}
-          to="/"
+          to="/aa"
         >
           <img src={Images.REPORT_ICON} alt="" />
           <p className="navText">Báo cáo</p>
         </NavLink>
         <NavLink
           className={(navData) => (navData.isActive ? 'navOptionItem active' : 'navOptionItem')}
-          to="/"
+          to="/aa"
         >
           <img src={Images.SETTING_ICON} alt="" />
           <p className="navText">Cài đặt hệ thống</p>
